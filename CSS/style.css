@@ -68,3 +68,61 @@ footer {
   margin: 0 auto;
   padding: 0 30px;
 }
+.btn {
+  padding: 10px 20px;
+  background-color: #0ed984;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.btn:hover {
+  background-color: #0056b3;
+}
+.button:active {
+  animation: clickAnimation 0.3s; /* 클릭 시 애니메이션 적용 */
+}
+.button:hover {
+  background-color: #0056b3; /* 호버 시 배경색 변경 */
+  transform: scale(1.1); /* 호버 시 확대 효과 */
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #1f1f1f; /* 어두운 배경색 */
+  color: #dcdcdc; /* 밝은 글자색 */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #333; /* 어두운 헤더와 푸터 배경색 */
+  color: #dcdcdc; /* 밝은 글자색 */
+  padding: 20px;
+  text-align: center;
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+}
+
+/* 모바일 화면에 대한 스타일 */
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+  .header,
+  .footer {
+    padding: 10px;
+  }
+  .content {
+    padding: 10px;
+  }
+}
