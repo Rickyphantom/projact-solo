@@ -1,0 +1,65 @@
+body {
+  background-color: #1b1b1b;
+  color: #c0c0c0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* 링크 스타일 */
+a {
+  color: #c0c0c0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+/* 헤더 스타일 */
+header {
+  background-color: #2b2b2b;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+/* 내비게이션 바 스타일 */
+nav {
+  background-color: #1b1b1b;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #c0c0c0;
+}
+
+nav ul li a:hover {
+  color: #ffffff;
+}
+
+/* 콘텐츠 스타일 */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* 푸터 스타일 */
+footer {
+  background-color: #2b2b2b;
+  color: #c0c0c0;
+  padding: 20px;
+  text-align: center;
+}
