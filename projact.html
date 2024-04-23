@@ -8,6 +8,9 @@
   </head>
 
   <body>
+    <form action="/submit-form" method="post">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
     <header>
       <div class="container">
         <div id="branding">
@@ -24,21 +27,35 @@
     </header>
     <ul>
       <div class="container">
-        <h2>어서옵셔!</h2>
-        <h1>팀원 : 김건희</h1>
-
-        <a href="https://github.com/limgunny">웹프로그래밍 과제</a>
-
-        <img src="fruit.jpg" />
-
-        <p>
-          <a href="https://wwonderfruit.netlify.app/">웹프로그래밍 과제</a>.
-        </p>
-      </div>
+        <table style="margin-top: 50px;">
+          <h1 style="text-align: center; margin-top: 30px;">팀 구성 및 소개</h1>
+          <tr>
+              <th>이름</th>
+              <th>학번</th>
+              <th>github</th>
+          </tr>
+          <tr>
+              <td>박이슬</td>
+              <td>92450524</td>
+              <td><a href="https://github.com/kindwitch">github 접속하기</a></td>
+              
+          </tr>
+          <tr>
+              <td>유선빈</td>
+              <td>92113724</td>
+              <td><a href="https://github.com/Rickyphantom/web">github 접속하기</a></td>
+              
+          </tr>
+          <tr>
+            <td>임건희</td>
+            <td>91814333</td>
+            <td><a href="https://github.com/limgunny?tab=repositories">github 접속하기</a></td>
+            <tr>
+              <td>팀프로젝트:과일판매소</td>
+              <td><a href="https://wwonderfruit.netlify.app/">접속하기</a></td>
+            </tr>
     </ul>
-    <footer>
-      <p>Copyright &copy; 2024, 중부대학교 정보보호학과 21학번 유선빈</p>
-    </footer>
+    
   </body>
 </html>
 <html lang="en">
